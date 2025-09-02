@@ -1,0 +1,38 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Abril+Fatface&family=Anton&family=Arimo:ital,wght@0,400..700;1,400..700&family=Arizonia&family=Bebas+Neue&family=Cinzel:wght@400..900&family=Cossette+Titre:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Esteban&family=Great+Vibes&family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rouge+Script&family=Story+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* inter font */
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.home{
+    background-color: aliceblue;
+}
+.cart{
+   background-color: white;
+   padding: 10px;
+   border-radius: 10px;
+}
+:hover.cart{
+    background-color: skyblue;
+}
+.cart-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.taka{
+    font-size: 1.5rem;
+    color: orange;
+    font-weight: bold;
+}
+
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
